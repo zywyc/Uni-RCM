@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual envs
+venv/
+env/
+.venv/
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project: data / weights / experiment outputs（very important!）
+checkpoints/
+results/
+data/
+datasets/
+*.pth
+*.pt
+*.ckpt
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+swanlog/
+wandb/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.bak
