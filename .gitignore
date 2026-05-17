@@ -22,7 +22,7 @@ env/
 Thumbs.db
 desktop.ini
 
-# Project: data / weights / experiment outputs（very important!）
+# Project: data / weights / experiment outputs
 checkpoints/
 results/
 data/
