@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
 <h1>Unified Reference-guided Cross-modal Mapping for Multi-Class Anomaly Detection</h1>
@@ -230,10 +229,3 @@ Substitute `swl.login(...)`, `swl.init(...)`, and `swl.log(...)` with their `wan
 # :pray: Acknowledgements
 
 We sincerely thank the authors of the following works, whose code and ideas were essential to building Uni-RCM: [M3DM](https://github.com/nomewang/M3DM), [CFM](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping), and [G2SF](https://github.com/ctaoaa/G2SF).
-
-
-
-
-=======
-Our model weights and execution scripts will be released shortly.
->>>>>>> 116c3e7423d2a45315946a6004862e68af87aaef
