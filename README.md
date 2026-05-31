@@ -72,17 +72,19 @@ Uni-RCM uses two frozen pre-trained backbones for feature extraction:
 | Backbone | Where to get it |
 |---|---|
 | DINO ViT-B/8 | [facebookresearch/dino](https://github.com/facebookresearch/dino) — `dino_vitbase8_pretrain.pth` |
-| Point-MAE | [Pang-Yatian/Point-MAE](https://github.com/Pang-Yatian/Point-MAE) — pre-trained encoder checkpoint |
+| Point-MAE | [Pang-Yatian/Point-MAE](https://github.com/Pang-Yatian/Point-MAE) — `pointmae_pretrain.pth` |
 ---
 
 After downloading, open `models/full_extraction_models.py` and set the two path constants near the top of the file:
 
 ```python
 DINO_CHECKPOINT_PATH = '/path/to/dino_vitbase8_pretrain.pth'
-PointMAE_CHECKPOINT_PATH = '/path/to/point_mae_pretrain.pth'
+PointMAE_CHECKPOINT_PATH = '/path/to/pointmae_pretrain.pth'
 ```
 
-- **Pre-trained Uni-RCM checkpoints will be released soon.**
+> **:link: All pretrained weights are available here:**
+> [Download](https://drive.google.com/drive/folders/1uzqKJ8Zu19qJVPUcwbZHTZk81H_r1o0x?usp=drive_link)
+
 
 
 # :rocket: Step-by-Step Usage
@@ -198,7 +200,7 @@ python processing/aggregate_results.py \
     --output_file ./results/aggregated_results.csv
 ```
 
-# :rotating_light: Training Monitoring
+# :bulb: Training Monitoring
 
 Training metrics are logged with [SwanLab](https://github.com/SwanHubX/SwanLab) by default. Set your API key in `uni_rcm_train.py`:
 
