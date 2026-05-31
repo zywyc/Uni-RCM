@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <h1>Unified Reference-guided Cross-modal Mapping for Multi-Class Anomaly Detection</h1>
@@ -233,3 +234,6 @@ We sincerely thank the authors of the following works, whose code and ideas were
 
 
 
+=======
+Our model weights and execution scripts will be released shortly.
+>>>>>>> 116c3e7423d2a45315946a6004862e68af87aaef
